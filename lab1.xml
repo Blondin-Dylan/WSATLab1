@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="lab1.xsl" type="text/xsl"?>
+<lab1 xmlns="https://www.lab1.com/menu"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="https://www.lab1.com/menu menu.xsd">
+    <servingTime name="lunch">
+        <category>meals</category>
+        <subCategory>
+            <Item>
+                <description>BLT</description>
+                <price>10</price>
+            </Item>
+            <Item>
+                <description>Caeser Salad</description>
+                <price>15</price>
+            </Item>
+        </subCategory>
+    </servingTime>
+
+    <servingTime name="dinner">
+        <category>meals</category>
+        <subCategory>
+            <Item>
+                <description>Wagyu Steak</description>
+                <price>40</price>
+            </Item>
+            <Item>
+                <description>Impossible Burger</description>
+                <price>22</price>
+            </Item>
+        </subCategory>
+    </servingTime>
+
+    <servingTime name="drinks">
+        <category>drinks</category>
+        <subCategory>
+            <Item>
+                <description>Pepsi</description>
+                <price>4</price>
+            </Item>
+            <Item>
+                <description>Sprite</description>
+                <price>10</price>
+            </Item>
+        </subCategory>
+    </servingTime>
+    <servingTime name="dessert">
+        <category>dessert</category>
+        <subCategory>
+            <Item>
+                <description>Lava Cake</description>
+                <price>12</price>
+            </Item>
+            <Item>
+                <description>Pumpkin Pie</description>
+                <price>13</price>
+            </Item>
+        </subCategory>
+    </servingTime>
+</lab1>
